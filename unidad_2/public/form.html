@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro de Datos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registro de datos personales:</h1>
+    <br/>
+    <form action="/procesar" method="POST">
+        <div class="form">
+            <label for="name">Nombre:</label><br>
+            <input type="text" name="nombre" id="name" placeholder="Ingrese su nombre" required>
+            <br>
+            <label for="lastName">Apellido:</label><br>
+            <input type="text" name="apellido" id="lastName" placeholder="Ingrese su apellido" required>
+            <br>
+            <label for="age">Edad:</label><br>
+            <input type="number" name="edad" id="age" placeholder="Ingrese su edad">
+            <br>
+            <label for="celphone">Celular:</label><br>
+            <input type="number" name="celular" id="celphone" placeholder="Ingrese su número de celular" required>
+            <br>
+            <label for="email">E-mail:</label><br>
+            <input type="text" name="email" id="email" placeholder="Ingrese su correo electrónico" required>
+            <br>
+            <label for="nationality">Nacionalidad:</label><br>
+            <input type="text" name="nacionalidad" id="nationality" placeholder="Ingrese su país de nacimiento">
+            <br/>
+            <label for="residency">Residencia:</label><br>
+            <input type="text" name="residencia" id="residency" placeholder="Ingrese su país de residencia">
+            <br>
+            <hr>
+        </div>
+        <div class="boton">
+            <button type="submit" class="submit">Enviar</button>
+        </div> 
+    </form>
+</body>
+</html>
