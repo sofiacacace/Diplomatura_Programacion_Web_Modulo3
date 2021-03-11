@@ -1,0 +1,3 @@
+Trabajo Práctico integrador:
+
+Se trata de un proyecto de desarrollo backend en NodeJS, utilizando API Rest y base de datos MySQL para conocer si los libros del usuario se encuentran en su biblioteca o prestados. En caso de estar prestado, se quiere saber a quién se los prestó.
